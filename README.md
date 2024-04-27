@@ -20,7 +20,7 @@ docker build -t rd_challenge:latest .
 docker run rd_challenge:latest
 ```
 
-Existe um script na raíz do projeto para rodar buildar o projeto e rodar os testes:
+Existe um script na raíz do projeto para buildar o projeto e rodar os testes:
 
 ```sh
 ./run.sh
