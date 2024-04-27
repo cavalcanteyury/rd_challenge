@@ -1,10 +1,27 @@
-# Ruby
+# RD Challenge - Ruby
+
+Uma versão em Ruby do desafio para desenvolvedores da RD Station
+
+## Requisitos
+
+* [Docker](https://docs.docker.com/get-docker/)
+
+## Stack
+
+* Ruby 3.3 [+YJIT](https://shopify.engineering/ruby-yjit-is-production-ready) apps
 
 ## Como rodar os testes
 
-No terminal, execute os comandos:
 
+Na raíz do projeto:
+
+```sh
+docker build -t rd_challenge:latest .
+docker run rd_challenge:latest
 ```
-cd ruby
-ruby customer_success_balancing.rb
+
+Existe um script na raíz do projeto para rodar buildar o projeto e rodar os testes:
+
+```sh
+./run.sh
 ```
